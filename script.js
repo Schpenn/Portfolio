@@ -1,5 +1,5 @@
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("myBtn");
+var modal = document.getElementById("istqb-foundation-modal");
+var btn = document.getElementsById("istqb-foundation-modal");
 var span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function() {
