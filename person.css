@@ -1,7 +1,7 @@
 .modal {
     display: none; 
     position: fixed; 
-    z-index: 1; 
+    z-index: 100; 
     left: 0;
     top: 0;
     width: 100%; 
@@ -10,17 +10,20 @@
     background-color: rgba(0,0,0,0.4); 
   }
   .modal-content {
-    background-color: #fefefe;
+    background-color: white;
     margin: 15% auto; 
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 50%;
   }
   .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
+  }
+  img{
+    width:100%;
   }
 .close:hover,
 .close:focus {
@@ -41,7 +44,7 @@
     --skin: #fca;
     --iris: #68a;
     --hair: rgb(225,207,144);
-    --shirt: #B8BC86;
+    --shirt: #7dd6e2   /* #B8BC86*/;
     --line: rgba(80,0,0,0.15);
 
 }
