@@ -1,8 +1,11 @@
+.hidden{
+    display: none;
+}
 .modal {
-    display: none; 
+    
     position: fixed; 
     z-index: 100; 
-    left: 0;
+    left: auto;
     top: 0;
     width: 100%; 
     height: 100%;
@@ -11,10 +14,10 @@
   }
   .modal-content {
     background-color: white;
-    margin: 15% auto; 
+    margin: 5% auto ;
     padding: 20px;
     border: 1px solid #888;
-    width: 50%;
+    width: 30%;
   }
   .close {
     color: #aaa;
@@ -22,8 +25,11 @@
     font-size: 28px;
     font-weight: bold;
   }
-  img{
-    width:100%;
+img{
+    display: block;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
   }
 .close:hover,
 .close:focus {
@@ -33,12 +39,12 @@
 }
 .person{
     text-align: center;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80vmin;
-    height: 120vmin;
+    height: 100%;
     background-color: #eee;
    
     --skin: #fca;
@@ -190,7 +196,7 @@
 }
 .shoulders{
     width:100%;
-    height: 36%;
+    height: 40%;
     background: var(--shirt);
     top: 60%;
     clip-path: polygon(0% 40%, 40% 10%, 40% 0%, 60% 0%, 60% 10%, 100% 40%, 100% 100%, 0% 100%);
@@ -270,10 +276,30 @@
 .medal5{
     top:50%;
     left: 45%;
-    background-color: #8b888b;
+    background-color: #4207e6;
 }
 .medal6{
-    top:50%;
-    left: 55%;
+    top: 75%;
+    left: 5%;
     background-color: #8b888b;
+}
+.medal7{
+    top:75%;
+    left: 15%;
+    background-color: #700570;
+}
+.medal8{
+    top:75%;
+    left: 25%;
+    background-color: #aa9f0b;
+}
+.medal9{
+    top:75%;
+    left: 35%;
+    background-color: #05fa42;
+}
+.medal10{
+    top:75%;
+    left: 45%;
+    background-color: #f70a15;
 }
